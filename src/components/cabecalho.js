@@ -11,7 +11,7 @@ class cabecalho extends Component {
         return(
             <View style={styles.container}>
                 <View style={styles.rowContainer}>
-                    <Text style={styles.title}>Aprendendo...</Text>
+                    <Text style={styles.title}>TOPO</Text>
                 </View>
             </View>
         )
@@ -23,7 +23,7 @@ const styles = StyleSheet.create({
         padding: 10,
         borderBottomWidth: 1,
         borderColor: '#EEE',
-        // textAlignVertical: 'center'
+        textAlignVertical: 'center'
     },
     rowContainer: {
         flexDirection: 'row',
@@ -34,7 +34,6 @@ const styles = StyleSheet.create({
         color: '#000',
         height: 40,
         fontSize: 30,
-        // textAlignVertical: 'center'
     }
 })
 

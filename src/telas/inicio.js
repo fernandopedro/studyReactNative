@@ -12,17 +12,13 @@ class Inicio extends Component {
 }
 const styles = StyleSheet.create({
     container: {
-        // marginTop: Platform.OS === 'ios' ? 20 : 0,
-        padding: 10,
-        // borderBottomWidth: 1,
-        // borderColor: '#EEE',
+        marginTop: Platform.OS === 'ios' ? 20 : 0,
+        borderBottomWidth: 1,
+        borderColor: '#EEE',
         flex: 1,
-        flexDirection: 'column',
         justifyContent: 'center',
-        // backgroundColor: '#CCC'
     },
     texto: {
-        // color: '#000',
         fontSize: 30,
     }
 })
