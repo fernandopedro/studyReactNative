@@ -3,7 +3,7 @@ import { createBottomTabNavigator } from 'react-navigation'
 import Icon from 'react-native-vector-icons/FontAwesome'
 
 import Inicio from './telas/inicio'
-import Login from './telas/login'
+import Cadastrar from './telas/cadastro'
 
 const MenuRoute = {
     Inicio: {
@@ -15,11 +15,11 @@ const MenuRoute = {
                 <Icon name='home' size={30} color={tintColor} />
         }
     },
-    Adicionar: {
-        name: 'Adicionar',
-        screen: Login,
+    Cadastrar: {
+        name: 'Cadastrar',
+        screen: Cadastrar,
         navigationOptions: {
-            title: 'Adicionar',
+            title: 'Cadastrar',
             tabBarIcon: ({ tintColor }) =>
                 <Icon name='user' size={30} color={tintColor} />
         }
